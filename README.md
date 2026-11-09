@@ -1,6 +1,6 @@
 # DMRG for the π-flux Bose-Hubbard ladder
 
-DMRG simulations of interacting bosons on a two-leg ladder with a π flux per plaquette and alternating hopping. The code computes the ground state and the observables used to map the phase diagram: loop currents and their correlations, fidelity susceptibility, charge gap and entanglement entropy.
+DMRG simulations of interacting bosons on a two-leg ladder with a π flux per plaquette and alternating hopping. The code computes the ground state and the observables used to map the phase diagram: loop currents and their correlations, fidelity susceptibility and charge gap.
 
 The DMRG is done with [ITensor](https://itensor.org/) (`ITensors.jl` / `ITensorMPS.jl`). This repository contains the model, the observables, the simulation workflow and the analysis.
 
@@ -36,7 +36,7 @@ For each value of $U$, `observables_calc.jl` does the following:
    - the correlations $\langle\hat L_{z,0}\hat L_{z,i}\rangle$;
    - the fidelities $|\langle\psi(U)|\psi(U\pm\delta)\rangle|$, which give the fidelity susceptibility;
    - optionally, the ground state energies with $N\pm1$ particles, for the charge gap $E(N+1)+E(N-1)-2E(N)$;
-   - optionally, the entanglement entropy profile.
+   - optionally, the entanglement entropy profile (not shown here).
 
 ## Structure
 
@@ -57,7 +57,7 @@ For each value of $U$, `observables_calc.jl` does the following:
 ├── test/
 │   └── check_ed.jl          # DMRG vs exact diagonalization on a small ladder
 ├── analysis/
-│   └── dmrg_analysis.ipynb  # fidelity susceptibility, loop current, charge gap, correlations, entropy
+│   └── dmrg_analysis.ipynb  # fidelity susceptibility, loop current, charge gap, correlations
 └── data/                    # results read by the analysis notebook
 ```
 
@@ -72,7 +72,7 @@ julia test/check_ed.jl
 Run one point of the phase diagram:
 
 ```bash
-julia observables_calc.jl --L 20 --U 1.0 --nu 0.25 --outdir data/results_nu0.25/Lx20
+julia observables_calc.jl --L 20 --U 1.0 --nu 0.25 --outdir data/results_nu0.25/Lx70
 ```
 
 Or run a scan in $U$. The parameters are at the top of the script:
@@ -81,7 +81,7 @@ Or run a scan in $U$. The parameters are at the top of the script:
 bash scripts/submit.sh $(which julia)
 ```
 
-All the options are listed in `input.jl`. For example, `--compressibility true` also computes the charge gap, and `--entropy true` computes the entanglement entropy.
+All the options are listed in `input.jl`. For example, `--compressibility true` also computes the charge gap, and `--entropy true` computes the entanglement entropy (not shown here).
 
 The results are written in `data/results_nu{nu}/Lx{L}/`, where the analysis notebook `analysis/dmrg_analysis.ipynb` reads them. The analysis is done in Python (NumPy, SciPy, Matplotlib).
 
