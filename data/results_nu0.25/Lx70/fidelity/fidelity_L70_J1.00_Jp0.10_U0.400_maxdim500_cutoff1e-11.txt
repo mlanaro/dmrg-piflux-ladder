@@ -1,0 +1,2 @@
+# delta_list overlap_plus overlap_minus overlap_sim GS_energy_plus GS_energy_minus
+0.005	0.9998682442130334	0.9998676100079278	0.999473492631969	-43.90276890237904	-44.094489854558944

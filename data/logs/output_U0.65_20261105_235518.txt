@@ -1,0 +1,181 @@
+Started at: 2026-11-05 23:55:18
+DMRG on a ladder of 2x70 sites with state per sites: 5+1
+Number of sweeps first DMRG: 100
+Number of sweeps second DMRG: 500
+Results will be saved in /home/ubuntu/Projects-1/DMRG_piFlux/Codes_pi-flux/dmrg-piflux-ladder/dmrg-piflux-ladder/data/results_nu0.25/Lx70
+Parameters: L = 70, nu = 0.25, J = 1.0, Jp = 0.1, U = 0.65, max_maxdim = 500
+
+state ["0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1"]
+
+Finding ground state L = 70, J = 1.0, Jp = 0.1, U = 0.65
+maxdim0: [10, 50, 50, 50, 100, 100, 150, 150, 200, 200, 300, 300, 400, 400, 500]
+cutoff0: [1.0e-11]
+After sweep 1 energy=-38.86185507274461  maxlinkdim=10 maxerr=8.14E-05 time=54.980
+After sweep 2 energy=-39.007989866939255  maxlinkdim=50 maxerr=4.34E-08 time=8.481
+After sweep 3 energy=-39.05005365944145  maxlinkdim=50 maxerr=3.71E-08 time=10.536
+After sweep 4 energy=-39.09386611542949  maxlinkdim=50 maxerr=1.52E-07 time=11.608
+After sweep 5 energy=-39.11859535046081  maxlinkdim=100 maxerr=3.20E-11 time=18.423
+After sweep 6 energy=-39.1340994979764  maxlinkdim=100 maxerr=5.27E-11 time=17.313
+After sweep 7 energy=-39.148533323912375  maxlinkdim=150 maxerr=9.98E-12 time=18.713
+After sweep 8 energy=-39.16308631827313  maxlinkdim=150 maxerr=2.42E-10 time=22.732
+After sweep 9 energy=-39.17755235914372  maxlinkdim=200 maxerr=2.00E-11 time=27.278
+After sweep 10 energy=-39.192453501635384  maxlinkdim=200 maxerr=5.25E-11 time=33.196
+After sweep 11 energy=-39.20786918635799  maxlinkdim=245 maxerr=9.99E-12 time=37.249
+After sweep 12 energy=-39.222126101180436  maxlinkdim=232 maxerr=1.00E-11 time=38.964
+After sweep 13 energy=-39.23553669600335  maxlinkdim=216 maxerr=1.00E-11 time=36.290
+After sweep 14 energy=-39.248805412570846  maxlinkdim=206 maxerr=9.99E-12 time=36.597
+After sweep 15 energy=-39.2620917428796  maxlinkdim=204 maxerr=1.00E-11 time=41.776
+After sweep 16 energy=-39.271738135062186  maxlinkdim=205 maxerr=1.00E-11 time=40.194
+After sweep 17 energy=-39.27812762099744  maxlinkdim=202 maxerr=9.99E-12 time=38.925
+After sweep 18 energy=-39.28231298451155  maxlinkdim=199 maxerr=1.00E-11 time=41.686
+After sweep 19 energy=-39.28604877353661  maxlinkdim=205 maxerr=9.99E-12 time=43.023
+After sweep 20 energy=-39.28778739091658  maxlinkdim=188 maxerr=9.99E-12 time=41.870
+After sweep 21 energy=-39.289035408454694  maxlinkdim=187 maxerr=9.96E-12 time=40.941
+After sweep 22 energy=-39.28994751899472  maxlinkdim=187 maxerr=1.00E-11 time=38.596
+After sweep 23 energy=-39.29065371459032  maxlinkdim=190 maxerr=1.00E-11 time=37.755
+After sweep 24 energy=-39.29121740724954  maxlinkdim=187 maxerr=9.99E-12 time=38.170
+After sweep 25 energy=-39.291670150050805  maxlinkdim=191 maxerr=9.97E-12 time=41.257
+After sweep 26 energy=-39.291972760813636  maxlinkdim=221 maxerr=1.00E-11 time=43.171
+After sweep 27 energy=-39.29213434740212  maxlinkdim=199 maxerr=1.00E-11 time=42.937
+After sweep 28 energy=-39.29224648654051  maxlinkdim=216 maxerr=1.00E-11 time=45.895
+After sweep 29 energy=-39.29233054381115  maxlinkdim=200 maxerr=1.00E-11 time=44.851
+After sweep 30 energy=-39.2923795627188  maxlinkdim=210 maxerr=1.00E-11 time=51.479
+After sweep 31 energy=-39.292403823822156  maxlinkdim=241 maxerr=1.00E-11 time=51.711
+After sweep 32 energy=-39.292417757258875  maxlinkdim=236 maxerr=1.00E-11 time=47.271
+After sweep 33 energy=-39.29242639635224  maxlinkdim=229 maxerr=1.00E-11 time=51.161
+Energy difference less than 1.0e-5, stopping DMRG
+Ground-state energy symmetry broken: -39.29242639635224
+Compute loop current 
+
+Loop currents saved to /home/ubuntu/Projects-1/DMRG_piFlux/Codes_pi-flux/dmrg-piflux-ladder/dmrg-piflux-ladder/data/results_nu0.25/Lx70/Lz0/Lz/Lz_L70_J1.00_Jp0.10_U0.650_maxdim500_cutoff1e-11.txt
+maxdim_psi00 = 229
+maxdim_dmrg = Any[249, 500]
+cutoff DMRG: [1.0e-8, 1.0e-8, 1.0e-9, 1.0e-9, 1.0e-10]
+After sweep 1 energy=-39.28168454859067  maxlinkdim=184 maxerr=1.00E-08 time=48.007
+After sweep 2 energy=-39.28168761040985  maxlinkdim=179 maxerr=1.00E-08 time=37.139
+After sweep 3 energy=-39.28169020895397  maxlinkdim=188 maxerr=1.00E-09 time=42.492
+After sweep 4 energy=-39.28169100180815  maxlinkdim=193 maxerr=1.00E-09 time=44.761
+After sweep 5 energy=-39.28169160946792  maxlinkdim=179 maxerr=1.00E-10 time=44.339
+After sweep 6 energy=-39.281691857971055  maxlinkdim=176 maxerr=1.00E-10 time=33.474
+After sweep 7 energy=-39.281691990107035  maxlinkdim=176 maxerr=1.00E-10 time=34.841
+After sweep 8 energy=-39.2816920641181  maxlinkdim=177 maxerr=1.00E-10 time=40.621
+After sweep 9 energy=-39.28169210910379  maxlinkdim=175 maxerr=9.98E-11 time=33.133
+After sweep 10 energy=-39.2816921368159  maxlinkdim=175 maxerr=1.00E-10 time=31.544
+After sweep 11 energy=-39.28169215427725  maxlinkdim=175 maxerr=9.98E-11 time=39.724
+After sweep 12 energy=-39.281692165353206  maxlinkdim=175 maxerr=9.99E-11 time=39.450
+After sweep 13 energy=-39.28169217266014  maxlinkdim=175 maxerr=9.99E-11 time=37.121
+Energy difference less than 1.0e-8, stopping DMRG
+Ground-state energy: -39.28169217266014
+Compute loop current 
+
+Loop currents saved to /home/ubuntu/Projects-1/DMRG_piFlux/Codes_pi-flux/dmrg-piflux-ladder/dmrg-piflux-ladder/data/results_nu0.25/Lx70/Lz/Lz_L70_J1.00_Jp0.10_U0.650_maxdim500_cutoff1e-11.txt
+Compute loop current correlator 
+
+index_central_plaq = 69
+Loop current correlators saved to /home/ubuntu/Projects-1/DMRG_piFlux/Codes_pi-flux/dmrg-piflux-ladder/dmrg-piflux-ladder/data/results_nu0.25/Lx70/Lz_corr/Lz_corrL70_J1.00_Jp0.10_U0.650_maxdim500_cutoff1e-11.txt
+Compute fidelity 
+
+Computing fidelity for +δ, -δ = 0.005, -0.005
+maxdim_psi00 = 175
+maxdim_dmrg = Any[195, 195, 500]
+After sweep 1 energy=-39.188757778952635  maxlinkdim=195 maxerr=1.10E-10 time=47.685
+After sweep 2 energy=-39.18875814878276  maxlinkdim=195 maxerr=2.15E-10 time=55.193
+After sweep 3 energy=-39.18875819772003  maxlinkdim=251 maxerr=1.00E-11 time=65.995
+After sweep 4 energy=-39.18875821197644  maxlinkdim=252 maxerr=1.00E-11 time=67.816
+After sweep 5 energy=-39.18875821781799  maxlinkdim=252 maxerr=1.00E-11 time=66.668
+After sweep 6 energy=-39.18875822076896  maxlinkdim=252 maxerr=1.00E-11 time=66.670
+After sweep 7 energy=-39.18875822236712  maxlinkdim=252 maxerr=9.99E-12 time=63.594
+Energy difference less than 1.0e-8, stopping DMRG
+maxdim_psi00 = 175
+maxdim_dmrg = Any[195, 195, 500]
+After sweep 1 energy=-39.37467613699116  maxlinkdim=195 maxerr=1.08E-10 time=50.150
+After sweep 2 energy=-39.374676521978834  maxlinkdim=195 maxerr=2.08E-10 time=53.301
+After sweep 3 energy=-39.37467656980799  maxlinkdim=253 maxerr=1.00E-11 time=70.834
+After sweep 4 energy=-39.374676582306  maxlinkdim=256 maxerr=1.00E-11 time=88.565
+After sweep 5 energy=-39.37467658694463  maxlinkdim=256 maxerr=1.00E-11 time=68.524
+After sweep 6 energy=-39.3746765891179  maxlinkdim=256 maxerr=1.00E-11 time=62.146
+After sweep 7 energy=-39.37467659033644  maxlinkdim=256 maxerr=1.00E-11 time=63.899
+Energy difference less than 1.0e-8, stopping DMRG
+Fidelity results saved to /home/ubuntu/Projects-1/DMRG_piFlux/Codes_pi-flux/dmrg-piflux-ladder/dmrg-piflux-ladder/data/results_nu0.25/Lx70/fidelity/fidelity_L70_J1.00_Jp0.10_U0.650_maxdim500_cutoff1e-11.txt
+Compute compressibility 
+
+state p["1", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1"]
+
+state h["0", "0", "0", "0", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1", "0", "0", "0", "1"]
+
+After sweep 1 energy=-39.88291895716246  maxlinkdim=41 maxerr=1.00E-08 time=2.394
+After sweep 2 energy=-39.998627945490476  maxlinkdim=65 maxerr=1.00E-08 time=8.051
+After sweep 3 energy=-40.064142575901194  maxlinkdim=105 maxerr=1.00E-09 time=10.215
+After sweep 4 energy=-40.10935086271939  maxlinkdim=138 maxerr=1.00E-09 time=15.867
+After sweep 5 energy=-40.153949051217715  maxlinkdim=124 maxerr=9.99E-11 time=19.399
+After sweep 6 energy=-40.187742692208715  maxlinkdim=134 maxerr=9.99E-11 time=16.968
+After sweep 7 energy=-40.21664394511449  maxlinkdim=142 maxerr=1.00E-10 time=18.044
+After sweep 8 energy=-40.24130101294215  maxlinkdim=167 maxerr=1.00E-10 time=19.721
+After sweep 9 energy=-40.26285114005616  maxlinkdim=175 maxerr=1.00E-10 time=22.560
+After sweep 10 energy=-40.284414651357515  maxlinkdim=173 maxerr=1.00E-10 time=27.979
+After sweep 1 energy=-37.773719301896676  maxlinkdim=34 maxerr=9.99E-09 time=2.095
+After sweep 2 energy=-37.917476506218094  maxlinkdim=61 maxerr=1.00E-08 time=9.144
+After sweep 3 energy=-37.968378768393094  maxlinkdim=89 maxerr=1.00E-09 time=13.099
+After sweep 4 energy=-38.00218853543026  maxlinkdim=113 maxerr=1.00E-09 time=21.661
+After sweep 5 energy=-38.0387979597261  maxlinkdim=112 maxerr=1.00E-10 time=25.496
+After sweep 6 energy=-38.06554807952486  maxlinkdim=127 maxerr=9.99E-11 time=15.830
+After sweep 7 energy=-38.088097018603726  maxlinkdim=142 maxerr=1.00E-10 time=17.854
+After sweep 8 energy=-38.110959415692605  maxlinkdim=152 maxerr=1.00E-10 time=20.440
+After sweep 9 energy=-38.13179151322298  maxlinkdim=158 maxerr=1.00E-10 time=21.600
+After sweep 10 energy=-38.15098760676576  maxlinkdim=166 maxerr=9.96E-11 time=26.070
+DMRG for n+1 particles
+After sweep 1 energy=-40.29347156745757  maxlinkdim=221 maxerr=1.00E-08 time=42.324
+After sweep 2 energy=-40.308943013532605  maxlinkdim=239 maxerr=1.00E-08 time=43.670
+After sweep 3 energy=-40.32089425749407  maxlinkdim=231 maxerr=1.00E-09 time=58.966
+After sweep 4 energy=-40.32785584082727  maxlinkdim=232 maxerr=1.00E-09 time=59.786
+After sweep 5 energy=-40.33239463645937  maxlinkdim=184 maxerr=9.99E-11 time=50.537
+After sweep 6 energy=-40.33542878526747  maxlinkdim=172 maxerr=1.00E-10 time=36.393
+After sweep 7 energy=-40.33794949180872  maxlinkdim=168 maxerr=1.00E-10 time=35.490
+After sweep 8 energy=-40.33910915719448  maxlinkdim=160 maxerr=1.00E-10 time=29.751
+After sweep 9 energy=-40.33994511429453  maxlinkdim=156 maxerr=9.99E-11 time=29.067
+After sweep 10 energy=-40.34060971347288  maxlinkdim=151 maxerr=9.99E-11 time=32.525
+After sweep 11 energy=-40.341142245170815  maxlinkdim=148 maxerr=9.99E-11 time=28.570
+After sweep 12 energy=-40.341574642002236  maxlinkdim=144 maxerr=1.00E-10 time=25.953
+After sweep 13 energy=-40.34203124253145  maxlinkdim=168 maxerr=9.99E-11 time=27.022
+After sweep 14 energy=-40.342377115465666  maxlinkdim=155 maxerr=9.99E-11 time=27.572
+After sweep 15 energy=-40.342583912452945  maxlinkdim=143 maxerr=1.00E-10 time=27.060
+After sweep 16 energy=-40.342763291367625  maxlinkdim=191 maxerr=9.99E-11 time=29.143
+After sweep 17 energy=-40.34288812010864  maxlinkdim=172 maxerr=9.99E-11 time=33.455
+After sweep 18 energy=-40.342972890399246  maxlinkdim=178 maxerr=1.00E-10 time=31.620
+After sweep 19 energy=-40.34304542255515  maxlinkdim=198 maxerr=1.00E-10 time=32.946
+After sweep 20 energy=-40.34308320630717  maxlinkdim=199 maxerr=1.00E-10 time=34.406
+After sweep 21 energy=-40.34310689202979  maxlinkdim=215 maxerr=1.00E-10 time=35.891
+After sweep 22 energy=-40.343119852674896  maxlinkdim=225 maxerr=1.00E-10 time=38.729
+After sweep 23 energy=-40.34312779153294  maxlinkdim=205 maxerr=1.00E-10 time=42.415
+Energy difference less than 1.0e-5, stopping DMRG
+DMRG for n-1 particles
+After sweep 1 energy=-38.16025854302429  maxlinkdim=223 maxerr=9.99E-09 time=38.108
+After sweep 2 energy=-38.1754974158358  maxlinkdim=247 maxerr=1.00E-08 time=46.206
+After sweep 3 energy=-38.18721455734128  maxlinkdim=235 maxerr=1.00E-09 time=53.780
+After sweep 4 energy=-38.19485457418927  maxlinkdim=228 maxerr=1.00E-09 time=56.518
+After sweep 5 energy=-38.201144034823535  maxlinkdim=197 maxerr=1.00E-10 time=49.399
+After sweep 6 energy=-38.20526842647914  maxlinkdim=179 maxerr=9.99E-11 time=32.782
+After sweep 7 energy=-38.20720905715032  maxlinkdim=170 maxerr=9.99E-11 time=27.649
+After sweep 8 energy=-38.208356890176944  maxlinkdim=163 maxerr=9.99E-11 time=29.713
+After sweep 9 energy=-38.209107210974764  maxlinkdim=157 maxerr=9.99E-11 time=30.208
+After sweep 10 energy=-38.20965113670371  maxlinkdim=153 maxerr=9.99E-11 time=27.544
+After sweep 11 energy=-38.21010646022781  maxlinkdim=148 maxerr=9.99E-11 time=26.410
+After sweep 12 energy=-38.21053214558299  maxlinkdim=147 maxerr=9.98E-11 time=28.459
+After sweep 13 energy=-38.210884141407625  maxlinkdim=146 maxerr=9.99E-11 time=29.577
+After sweep 14 energy=-38.211177831473336  maxlinkdim=147 maxerr=1.00E-10 time=28.171
+After sweep 15 energy=-38.21143842653608  maxlinkdim=146 maxerr=9.99E-11 time=27.051
+After sweep 16 energy=-38.21166235570752  maxlinkdim=161 maxerr=9.98E-11 time=28.936
+After sweep 17 energy=-38.21188252772499  maxlinkdim=173 maxerr=9.99E-11 time=29.381
+After sweep 18 energy=-38.21203776069345  maxlinkdim=186 maxerr=1.00E-10 time=37.196
+After sweep 19 energy=-38.21212452296233  maxlinkdim=189 maxerr=9.99E-11 time=38.373
+After sweep 20 energy=-38.212171951728855  maxlinkdim=177 maxerr=1.00E-10 time=36.940
+After sweep 21 energy=-38.212198935817995  maxlinkdim=215 maxerr=1.00E-10 time=38.940
+After sweep 22 energy=-38.21221246349669  maxlinkdim=223 maxerr=1.00E-10 time=42.384
+After sweep 23 energy=-38.21221710290137  maxlinkdim=243 maxerr=9.99E-11 time=45.570
+Energy difference less than 1.0e-5, stopping DMRG
+Number of bosons: N = 35.000000   N+1 state: 36.000000   N-1 state: 34.000000
+Energies for the charge gap saved to /home/ubuntu/Projects-1/DMRG_piFlux/Codes_pi-flux/dmrg-piflux-ladder/dmrg-piflux-ladder/data/results_nu0.25/Lx70/compressibility/comp_L70_J1.00_Jp0.10_U0.650_maxdim500_cutoff1e-11.txt
+
+Simulation done. 
+
+Finished at: 2026-11-06 01:15:01
